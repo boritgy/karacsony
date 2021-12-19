@@ -1,0 +1,130 @@
+<script>
+	function submit()
+	{
+		var solution = document.getElementById("solution").value;
+		document.getElementById("kep").style.visibility = "hidden";
+		
+		<!--kék--!>
+		if(solution == "543711189")
+		{
+			document.querySelector("#question").innerHTML = 'Forduljatok be a Falk Miksa utcába (az az utca, amelynek az elején Columbo áll)! A Honvédelmi Minisztériummal szemben az egyik régiségbolt kirakatában a képen látható órákat láthatjátok. Mi a neve a bekarikázottnak? Csak kisbetűvel, ékezetnélkül írjátok be a nevet.';
+			document.getElementById("kep").src="https://i.ibb.co/9vqyt6C/Inkedkarora-vagott-LI.jpg";
+			document.getElementById("kep").style.visibility = "visible";
+		}
+		else if(solution == "perseo")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább a Falk Miksa utcán, majd forudljatok be balra (a Bajcsy-Zsilinszky felé, nem a Parlament felé) az Alkotmány utcán! Egyszer csak találtok egy Café Bene nevű kávézót. Előtte van egy ATM, mi a customer service telefonszáma? Csak a számokat írjátok be, perjel vagy zárójel nélkül.';
+		}
+		else if(solution == "0612244666")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek át a Bajcsy-Zsilinszky másik oldalára, és forduljatok be a Nagymező utcába! Haladjatok tovább a Budapesti Operettszínházig. A színház előtt lábnyomokat találhattok. Kinek a lábnyoma van Metzger Mártáé és Ötvös Csabáé között? A nevet egybe és ékezetek nélkül írjátok be, pl. gyurcsanyferenc';
+		}
+		else if(solution == "lukacsgyongyi")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek ki a Teréz körútra! Az Oktogon mellett, a villamosmegállóval szemben megtaláljátok a Három Tarka Macska pékséget. Ehhez nem kell átmenni az úton. A pékség mellett álló házon található egy utazási irodának a táblája. Melyik amerikai elnökéhez hasonlít a neve? Csak az elnök vezetéknevét írjátok be, kisbetűvel.';
+		}
+		else if (solution == 'kennedy')
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek át az Andrássy másik oldalára, oda, ahol a T.G.I. Fridays van. Haladjatok tovább az Andrássy-n, el a Bábszínház mellett, majd forduljatok be az Izabella utcába. Milyen "market" jön veletek szembe egy táblán? Csak kisbetűvel, ékezet nélkül írjátok a nevet.'
+		}
+		else if (solution == 'maroga')
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább az Izabella utcán a Király utcáig. Forduljatok balra, tegyetek meg 150 métert és már itt is vagytok. Az étterem a Király100. Gratulálok :)'
+		}
+		<!--piros-->
+		else if(solution == "228456377")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek el a Parlamentig. A Kossuth téren, a Parlament bejáratóval szemben, az Alkotmány utca elején áll egy Trianon emlékmű, egy árok, amibe le lehet sétálni és a falába Nagy-Magyarország telepúléseit vésték be (igen, ezt is a Fidesz csinálta :D). Ha elmentek a legvégére, a tűz mögé, akkor olvashattok egy Biblia idézetet. Honnan származik az idézet? Ékezetek nélkül, ebben a formában írjátok be: MOZ15:1';
+		}
+		else if(solution == "ESA32:17")
+		{
+			document.querySelector("#question").innerHTML = 'Forduljatok be a Kálmán Imre utcába (az Alkotmány utcával párhuzamos - induljatok el az Alkotmány utcán, forduljatok be a Kozma Ferenc utcán, majd ott vagytok a Kálmán Imre utcában)! Induljatok el a Bajcsy-Zsilinszky felé! A 10-es szám alatt találhatjátok a képen látható emléktáblát. Mi van a kisatírozott címerre írva? Kisbetűvel, ékezet nélkül írjátok be.';
+			document.getElementById("kep").src="https://i.ibb.co/ZzZ7zBf/Inkedkalot-vagott-LI.jpg";
+			document.getElementById("kep").style.visibility = "visible";
+		}
+		else if(solution == "kalot")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek ki a Bajcsy-Zsilinszky útra, majd forduljatok jobbra (a Deák tér felé). Keressétek meg a Bears and Friends nevű boltot. A kirakatban sok plüss macin kívül egy másik állatot is láthattok. Milyet? Egy szó, ékezet nélkül írjátok be, pl. csotany';
+		}
+		else if (solution == 'flamingo')
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek ki a Teréz körútra, majd forduljatok be az Aradi utcába. A 14-es számon találtok egy lakáshirdetést. Nézzétek meg az alsót. amelyiken egy lány ül egy dobozban, és egy fiú áll mögötte. Milyen telefonszám van ráírva? Plusz jel nélkül írjátok be, pl. 36304567345!'
+		}
+		else if (solution == '36302407000')
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek egy kicsit tovább és a Csengery úton forduljatok be a Hunyadi tér felé - ehhez el kell haladni a Terror háza mellett és átmenni az Andrássyn. A Hunyadi téren van egy korcsolyapálya. Mekkora a látogatói létszám rajta? Megtaláljátok a pálya melletti táblán. Csak egy számot írjatok be!'
+		}
+		else if (solution == '60')
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább az Csengery úton a Király utcáig. Forduljatok balra, tegyetek meg 300 métert és már itt is vagytok. Az étterem a Király100, az egyik sarkon található. Gratulálok :)'
+		}
+		<!--lila-->
+		else if(solution == "943761537")
+		{
+			document.querySelector("#question").innerHTML = 'Induljatok el a Szent István körúton! A Vígszínházt elhagyva, a SPAR előtt a sarkon egy narancssárga doboz áll. Milyen facebook cím olvasható az oldalán? Kisbetűkkel írjátok be, pl. gyurcsanyferencofficial';
+		}
+		else if(solution == "buddhathaiwokbar")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek el a Nyugatiig, majd forduljatok be a Bajcsy-Zsilinszkyre! Keressétek meg a Bonbon Hemingway kávé, tea, édesség boltot (nem kell átmenni az úton)! Honnan származik képen látható cseresznyepálinka? Kisbetűvel, ékezetek nélkül írjátok be!';
+			document.getElementById("kep").src="https://i.ibb.co/dkFsn15/Inkedcseresznye-LI.jpg";
+			document.getElementById("kep").style.visibility = "visible";
+		}
+		else if(solution == "ujfeherto")
+		{
+			document.querySelector("#question").innerHTML = 'Ahogy mentek tovább a Bajcsy-Zsilinszkyn, az út másik oldalán találtok egy Duna House ingatlanost. Van egy eladó lakás, amelyik egy olyan utcában található, amelyiknek a neve nagyon hasonlít a jelenlegi amerikai alelnök nevéhez. Hány millió forintba kerül? A tizedesjegyet ponttal jelöljétek, mint a kiírásban. Pl. 56.7';
+		}
+		else if(solution == "39.9")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább az Oktogonra! Az egyik sarkon található az Avenue Hostel. Hányas kapucsengőn kell hozzájuk becsengetni? Csak egy számot írjatok be!';
+		}
+		else if(solution == "64")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek át az Andrássy másik oldalára, oda, ahol a T.G.I. Fridays van. Haladjatok tovább a Teréz körút a Király utcáig. Keressétek meg az Országos Polgárőr Szövetséget. A kirakatban áll egy pici rendőrautó. Mi a rendszáma? Kötőjel nélkül és kisbetűkkel írjátok be, pl. del111';
+		}
+		else if(solution == "mst396")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább a Király utcán. A 100-as szám alatt áll a Király100 étterem. Itt is vagytok, gratulálok! :)';
+		}
+		<!--toll-->
+		else if(solution == "741299138")
+		{
+			document.querySelector("#question").innerHTML = 'A Nagy Imre szobor, mielőtt a Fidesz átrakatta, a Vértanúk terén állt. Menjetek oda, és nézzétek meg ki csinálta az új szobrot! A nevet egybe, kisbetűvel, ékezetek nélkül írjátok be pl. gyurcsanyferenc. Segítség: a név bele van vésve a szoborba.';
+		}
+		else if(solution == "elekimre")
+		{
+			document.querySelector("#question").innerHTML = 'Haladjatok tovább a Báthory utcán, amíg el nem értek a Báthory abc-ig. Mi a képen kisatírozott termék márkája? Kisbetűvel, ékezetek nélkül írjátok be!';
+			document.getElementById("kep").src="https://i.ibb.co/ZK8KZ6v/Inkedcerbona-LI.jpg";
+			document.getElementById("kep").style.visibility = "visible";
+		}
+		else if(solution == "cerbona")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek ki a Bajcsy-Zsilinszkyre, menjetek át az úton, majd forduljatok be a Dessewffy utcába! Mit lehet kapni a 41. szám alatt található boltban? Egy szó, ékezetek nélkül írjátok!';
+		}
+		else if(solution == "babzsak")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább az Oktogonra, majd át a Starbuckshoz. Menjetek tovább az Andrássyn a Vörösmarty utcáig. Forduljatok be, és keressétek meg a Cervantes intézetet. Mikor a tájékoztató, ami kint van a hirdetőtáblán? A dátumot pontok nélkül, számokkal írjátok be, pl. 20211219.';
+		}
+		else if(solution == "20201014")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek vissza az Andrássy útra, és menjetek át. Haladjatok tovább a Vörösmarty utcán a Hunyadi térig. Ki lakott a 12. házszám alatt? A nevet egybe, kis betűkkel, ékezetek nélkül írjátok, pl. gyurcsanyferenc.';
+		}
+		else if(solution == "hegedussandor")
+		{
+			document.querySelector("#question").innerHTML = 'Menjetek tovább az Vörösmarty utcán a Király utcáig. Forduljatok balra, tegyetek meg 250 métert és már itt is vagytok. Az étterem a Király100, az egyik sarkon található. Gratulálok :)';
+		}
+		else 
+		{
+			document.querySelector("#question").innerHTML = 'Nem jó :(';
+		}
+		
+	}
+</script>
+
+<b>Megoldás:</b>
+<input type="text" id="solution"/>
+<input type="submit" value="OK" onclick="submit()"/>
+<br><br>
+<div id="question">:)</div>
+<br>
+<img style="visibility:hidden" id="kep" src="https://i.ibb.co/9vqyt6C/Inkedkarora-vagott-LI.jpg"></img>
+
